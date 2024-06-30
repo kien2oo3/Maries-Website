@@ -1,0 +1,21 @@
+.breadcrumb-item {
+    font-size: 0.9rem;
+}
+
+.breadcrumb-item a {
+    color: #3498db;
+}
+
+.breadcrumb-item:hover a {
+    text-decoration: underline;
+    color: #3498db;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: var(--bs-breadcrumb-divider-color);
+    font: var(--fa-font-solid) !important;
+    content: var(--bs-breadcrumb-divider, "\f0da") !important;
+    font-size: 1.3rem !important;
+}

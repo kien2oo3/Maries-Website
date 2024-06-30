@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Maries - By Viet Artisans</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" sizes="32x32">
+    <link href="assets/img/maries-icon.png" rel="icon" sizes="192x192">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/checkout.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+    <link rel="stylesheet" href="test/app.css">
+    <link rel="stylesheet" href="assets/css/list-product.css">
+    <link rel="stylesheet" href="assets/css/form-search.css">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font/fontawesome/css/all.min.css">
+
+    <!-- =======================================================
+  * Template Name: Yummy
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <img src="assets/img/marries_logo.png" alt="">
+                <!-- <h1>Maries<span>.</span></h1> -->
+            </a>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="category.html">Sản phẩm</a></li>
+                    <li><a href="story.html">Chuyện của Maries</a></li>
+                    <li class="dropdown"><a href="blog.html"><span>Blog</span> <i
+                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li> -->
+                            <li><a href="#">Tinh Hoa Làng Nghề Xứ Huế</a></li>
+                            <li><a href="#">Cỏ Bàng Maries</a></li>
+                            <li><a href="#">Những Chuyến Thiện Nguyện</a></li>
+                            <li><a href="#">Lối Sống Xanh</a></li>
+                            <li><a href="#">Những Câu Chuyện Được Lan Tỏa</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav><!-- .navbar -->
+
+            <div class="d-flex justify-content-between align-items-center">
+                <form id="form-search" action="#" class="position-relative">
+                    <input name="p-key" class="form-control position-absolute w-100 h-100" type="text"
+                        placeholder="Nhập tên sản phẩm">
+                    <button class="position-absolute border-0 btn-search-item" type="submit">
+                        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                    </button>
+                </form>
+
+                <!-- Cart -->
+                <div class="has-dropdown">
+                    <a class="mini-cart-shop-link btn-book-a-table-none ms-0 p-2 d-block" href="cart.html"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom" title="Giỏ hàng!"><i
+                            class="fa-solid fa-cart-shopping fa-xl"></i></a>
+
+                    <!--====== Dropdown ======-->
+                    <div class="mini-cart">
+
+                        <!--====== Mini Product Container ======-->
+                        <div class="mini-product-container gl-scroll u-s-m-b-15">
+
+                            <!--====== Card for mini cart ======-->
+                            <div class="card-mini-product">
+                                <div class="mini-product">
+                                    <div class="mini-product__image-wrapper">
+
+                                        <a class="mini-product__link" href="detail-product.html">
+
+                                            <img class="u-img-fluid" src="assets/img/products/BST5TL4.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="mini-product__info-wrapper">
+
+                                        <span class="mini-product__category">
+
+                                            <a href="danh-muc-tu-linh.html">TỨ LINH</a></span>
+
+                                        <span class="mini-product__name">
+
+                                            <a href="detail-product.html">BST5TL4</a></span>
+
+                                        <span class="mini-product__quantity">1 x</span>
+
+                                        <span class="mini-product__price">600.000đ</span>
+                                    </div>
+                                </div>
+
+                                <a class="mini-product__delete-link far fa-trash-alt" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="Xóa khỏi giỏ hàng!"></a>
+                            </div>
+                            <!--====== End - Card for mini cart ======-->
+
+
+                            <!--====== Card for mini cart ======-->
+                            <div class="card-mini-product">
+                                <div class="mini-product">
+                                    <div class="mini-product__image-wrapper">
+
+                                        <a class="mini-product__link" href="detail-product.html">
+
+                                            <img class="u-img-fluid" src="assets/img/products/MVISV14.png" alt=""></a>
+                                    </div>
+                                    <div class="mini-product__info-wrapper">
+
+                                        <span class="mini-product__category">
+
+                                            <a href="category.html">MŨ VISOR</a></span>
+
+                                        <span class="mini-product__name">
+
+                                            <a href="detail-product.html">MVISV14</a></span>
+
+                                        <span class="mini-product__quantity">1 x</span>
+
+                                        <span class="mini-product__price">350.000đ</span>
+                                    </div>
+                                </div>
+
+                                <a class="mini-product__delete-link far fa-trash-alt" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="Xóa khỏi giỏ hàng!"></a>
+                            </div>
+                            <!--====== End - Card for mini cart ======-->
+
+
+                            <!--====== Card for mini cart ======-->
+                            <div class="card-mini-product">
+                                <div class="mini-product">
+                                    <div class="mini-product__image-wrapper">
+
+                                        <a class="mini-product__link" href="detail-product.html">
+
+                                            <img class="u-img-fluid" src="assets/img/products/TCEL1.png" alt=""></a>
+                                    </div>
+                                    <div class="mini-product__info-wrapper">
+
+                                        <span class="mini-product__category">
+
+                                            <a href="category.html">TÚI CELINEE</a></span>
+
+                                        <span class="mini-product__name">
+
+                                            <a href="detail-product.html">TCEL1</a></span>
+
+                                        <span class="mini-product__quantity">1 x</span>
+
+                                        <span class="mini-product__price">900.000đ</span>
+                                    </div>
+                                </div>
+
+                                <a class="mini-product__delete-link far fa-trash-alt" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="Xóa khỏi giỏ hàng!"></a>
+                            </div>
+                            <!--====== End - Card for mini cart ======-->
+
+
+                            <!--====== Card for mini cart ======-->
+                            <div class="card-mini-product">
+                                <div class="mini-product">
+                                    <div class="mini-product__image-wrapper">
+
+                                        <a class="mini-product__link" href="detail-product.html">
+
+                                            <img class="u-img-fluid" src="assets/img/products/VCLUV05.png" alt=""></a>
+                                    </div>
+                                    <div class="mini-product__info-wrapper">
+
+                                        <span class="mini-product__category">
+
+                                            <a href="category.html">VÍ CLUTCH</a></span>
+
+                                        <span class="mini-product__name">
+
+                                            <a href="detail-product.html">VCLUV05</a></span>
+
+                                        <span class="mini-product__quantity">1 x</span>
+
+                                        <span class="mini-product__price">500.000đ</span>
+                                    </div>
+                                </div>
+
+                                <a class="mini-product__delete-link far fa-trash-alt" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="Xóa khỏi giỏ hàng!"></a>
+                            </div>
+                            <!--====== End - Card for mini cart ======-->
+                        </div>
+                        <!--====== End - Mini Product Container ======-->
+
+
+                        <!--====== Mini Product Statistics ======-->
+                        <div class="mini-product-stat">
+                            <div class="mini-total">
+
+                                <span class="subtotal-text">TỔNG TẠM</span>
+
+                                <span class="subtotal-value">2.350.000đ</span>
+                            </div>
+                            <div class="mini-action">
+
+                                <a class="mini-link btn--e-brand-b-2" href="checkout.html">THANH TOÁN</a>
+
+                                <a class="mini-link btn--e-transparent-secondary-b-2" href="cart.html">XEM GIỎ HÀNG</a>
+                            </div>
+                        </div>
+                        <!--====== End - Mini Product Statistics ======-->
+                    </div>
+                    <!--====== End - Dropdown ======-->
+                </div>
+
+                <div class="dropdown">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                        <div class="user-img rounded-circle">
+                            <img src="assets/img/employee/anh_chan_dung2.jpg" alt="">
+                        </div>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="user page/dash-my-profile.html">Thông tin cá nhân</a></li>
+                        <li><a class="dropdown-item" href="user page/dashboard.html">Quản lý tài khoản</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="index-login.html">Đăng xuất</a></li>
+                    </ul>
+                </div>
+            </div>
+            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+        </div>
+    </header><!-- End Header -->
+
+    <!-- End Hero Section -->
+    <main id="main">
+        <!-- ======= Menu Section ======= -->
+        <section id="menu" class="menu section-bg">
+            <div class="container" data-aos="fade">
+                <div class="row sticky-top">
+                    <div class="col-md-12">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <ul class="nav nav-tabs d-flex justify-content-center section-bg">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link active show" data-bs-toggle="tab"
+                                            data-bs-target="#information">
+                                            <h4 class="d-flex justify-content-center align-items-center">1.THÔNG TIN
+                                            </h4>
+                                        </a>
+                                    </li><!-- End tab nav item -->
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#pay">
+                                            <h4 class="d-flex justify-content-center align-items-center">2.THANH TOÁN
+                                            </h4>
+                                        </a>
+                                    </li><!-- End tab nav item -->
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" data-aos="fade" data-aos-delay="300">
+
+                    <div class="tab-pane fade active show" id="information">
+
+                        <div class="tab-header text-center">
+                            <h3>THÔNG TIN ĐẶT HÀNG</h3>
+                        </div>
+
+                        <div class="row gy-5 justify-content-center">
+                            <div class="col-lg-8 menu-item">
+                                <div class="list-product-cart bg-light p-3 border rounded">
+                                    <div
+                                        class="product-cart-item d-flex justify-content-between mb-3 py-3 border-bottom">
+                                        <div class="item-info d-flex justify-content-start align-items-center">
+                                            <div class="item-img rounded me-3">
+                                                <a href="detail-product.html">
+                                                    <img src="assets/img/products/BST5TL4.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item-about">
+                                                <div class="item-name fw-bold">
+                                                    <a href="detail-product.html">BST5TL4</a>
+                                                </div>
+                                                <div class="item-cate text-muted"><small>TỨ LINH</small></div>
+                                                <div class="item-price text-danger fw-bold">600.000đ</div>
+                                            </div>
+                                        </div>
+                                        <div class="item-check d-flex justify-content-end align-items-center">
+                                            <div class="fw-bold text-danger">
+                                                Số lượng: 1
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-cart-item d-flex justify-content-between mb-3 py-3 border-bottom">
+                                        <div class="item-info d-flex justify-content-start align-items-center">
+                                            <div class="item-img rounded me-3">
+                                                <a href="detail-product.html">
+                                                    <img src="assets/img/products/MVISV14.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item-about">
+                                                <div class="item-name fw-bold">
+                                                    <a href="detail-product.html">MVISV14</a>
+                                                </div>
+                                                <div class="item-cate text-muted"><small>MŨ VISOR</small></div>
+                                                <div class="item-price text-danger fw-bold">350.000đ</div>
+                                            </div>
+                                        </div>
+                                        <div class="item-check d-flex justify-content-end align-items-center">
+                                            <div class="item-total">
+                                                <div class="fw-bold text-danger">
+                                                    Số lượng: 1
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-cart-item d-flex justify-content-between mb-3 py-3 border-bottom">
+                                        <div class="item-info d-flex justify-content-start align-items-center">
+                                            <div class="item-img rounded me-3">
+                                                <a href="detail-product.html">
+                                                    <img src="assets/img/products/TCEL1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item-about">
+                                                <div class="item-name fw-bold">
+                                                    <a href="detail-product.html">TCEL1</a>
+                                                </div>
+                                                <div class="item-cate text-muted"><small>TÚI CELINEE</small></div>
+                                                <div class="item-price text-danger fw-bold">900.000đ</div>
+                                            </div>
+                                        </div>
+                                        <div class="item-check d-flex justify-content-end align-items-center">
+                                            <div class="item-total">
+                                                <div class="fw-bold text-danger">
+                                                    Số lượng: 1
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-cart-item d-flex justify-content-between mb-3 py-3 border-bottom">
+                                        <div class="item-info d-flex justify-content-start align-items-center">
+                                            <div class="item-img rounded me-3">
+                                                <a href="detail-product.html">
+                                                    <img src="assets/img/products/VCLUV05.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item-about">
+                                                <div class="item-name fw-bold">
+                                                    <a href="detail-product.html">VCLUV05</a>
+                                                </div>
+                                                <div class="item-cate text-muted"><small>VÍ CLUTCH</small></div>
+                                                <div class="item-price text-danger fw-bold">500.000đ</div>
+                                            </div>
+                                        </div>
+                                        <div class="item-check d-flex justify-content-end align-items-center">
+                                            <div class="item-total">
+                                                <div class="fw-bold text-danger">
+                                                    Số lượng: 1
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-header text-center">
+                            <h3>THÔNG TIN KHÁCH HÀNG</h3>
+                        </div>
+                        <div class="row gy-5 justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="your-info bg-light p-3 py-4 border rounded">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div class="your-name fw-bold">BÙI TRUNG KIÊN</div>
+                                        <div class="your-phone text-muted">0398768562</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div>
+                                            <span class="fw-bold">Email</span>
+                                            <small class="text-muted">(*)Hóa đơn VAT sẽ được gửi qua email này</small>
+                                        </div>
+                                        <input type="email" class="y-email border-0 border-bottom text-muted"
+                                            value="kien12003@gmail.com">
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <span class="fw-bold">Nhận email thông báo ưu đãi từ Maries</span>
+                                        <input type="checkbox" class="form-check-input" name="chk" id="chk">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-header text-center">
+                            <h3>THÔNG TIN NHẬN HÀNG</h3>
+                        </div>
+                        <div class="row gy-5 justify-content-center mb-5">
+                            <div class="col-lg-8">
+                                <div class="bg-light p-3 py-4 border rounded">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-column w-50 pe-3">
+                                            <label for="y-name"><small class="text-muted">Tên người nhận</small></label>
+                                            <input type="text" id="y-name" name="y-name"
+                                                class="form-input border-0 border-bottom" value="BÙI TRUNG KIÊN">
+                                        </div>
+                                        <div class="d-flex flex-column w-50 pe-3">
+                                            <label for="y-phone"><small class="text-muted">Số điện thoại người
+                                                    nhận</small></label>
+                                            <input type="text" id="y-phone" name="y-phone"
+                                                class="form-input border-0 border-bottom" value="0398768562">
+                                        </div>
+                                    </div>
+                                    <div class="my-3 box-addr mt-3">
+                                        <div class="my-3">
+                                            <div class="mb-3">
+                                                <div>
+                                                    <input type="radio" name="addr" id="adrr"
+                                                        class="form-check-input p-2 me-2" checked><strong>Nhà
+                                                        của tôi ở cạnh hội trường thôn.
+                                                    </strong><a href="#"
+                                                        class="d-inline-block border rounded-4 border-info text-info me-2">Nhà
+                                                        riêng</a><a href="#"
+                                                        class="d-inline-block border rounded border-danger text-danger">Mặc
+                                                        định</a>
+                                                </div>
+                                                <small class="default-addr text-muted">
+                                                    (Thôn An Cơ Đông, xã Thanh Tân,
+                                                    huyện
+                                                    Kiến
+                                                    Xương, tỉnh Thái Bình)
+                                                </small>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div>
+                                                    <input type="radio" name="addr" id="adrr"
+                                                        class="form-check-input p-2 me-2"><strong>Chung cư mini Huy
+                                                        Hoàng.
+                                                    </strong><a href="#"
+                                                        class="d-inline-block border rounded-4 border-info text-info me-2">Nhà
+                                                        riêng</a>
+                                                </div>
+                                                <small class="default-addr text-muted">
+                                                    (Khu tái định cư Tu Hoàng, tổ 8-phường Phương Canh, Nam Từ Liêm, Hà
+                                                    Nội)
+                                                </small>
+                                            </div>
+                                        </div>
+
+                                        <div class="my-3">hoặc <a
+                                                class="old-addr text-danger text-decoration-underline">Nhập địa chỉ
+                                                mới</a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="my-3 box-addr">
+                                        <div class="d-flex flex-wrap">
+                                            <div class="d-flex flex-column w-50 pe-3">
+                                                <label for="province">
+                                                    <small class="text-muted">Tỉnh/Thành phố</small>
+                                                </label>
+                                                <div class="position-relative">
+                                                    <select id="province"
+                                                        class="form-select border-0 border-bottom position-relative"
+                                                        name="province" required>
+                                                        <option value="" disabled selected hidden class="abc">Chọn
+                                                        </option>
+                                                        <option value="1">Thái Bình</option>
+                                                        <option value="2">Thanh Hóa</option>
+                                                    </select>
+                                                    <div class="caret-down position-absolute">
+                                                        <i class="fa-solid fa-caret-down"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column w-50 pe-3">
+                                                <label for="district">
+                                                    <small class="text-muted">Quận/Huyện</small>
+                                                </label>
+                                                <div class="position-relative">
+                                                    <select id="district"
+                                                        class="form-select border-0 border-bottom position-relative"
+                                                        name="district" required>
+                                                        <option value="" disabled selected hidden class="abc">Chọn
+                                                        </option>
+                                                        <option value="1">Kiến Xương</option>
+                                                        <option value="2">Quỳnh Phụ</option>
+                                                    </select>
+                                                    <div class="caret-down position-absolute">
+                                                        <i class="fa-solid fa-caret-down"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column w-50 pe-3">
+                                                <label for="ward">
+                                                    <small class="text-muted">Phường/Xã</small>
+                                                </label>
+                                                <div class="position-relative">
+                                                    <select id="ward"
+                                                        class="form-select border-0 border-bottom position-relative"
+                                                        name="ward" required>
+                                                        <option value="" disabled selected hidden class="abc">Chọn
+                                                        </option>
+                                                        <option value="1">Thanh Tân</option>
+                                                        <option value="2">Vũ Tây</option>
+                                                    </select>
+                                                    <div class="caret-down position-absolute">
+                                                        <i class="fa-solid fa-caret-down"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column w-50 pe-3">
+                                                <label for="y-street"><small class="text-muted">Số nhà/Tên
+                                                        đường</small></label>
+                                                <input type="text" id="y-street" name="y-street"
+                                                    class="form-control border-0 border-bottom">
+                                            </div>
+                                        </div>
+                                        <div class="my-3">
+                                            <a class="new-addr text-danger text-decoration-underline">
+                                                Chọn từ sổ địa chỉ
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="my-3 pe-3">
+                                        <input type="text" id="note" name="note"
+                                            class="form-control border-0 border-bottom w-100"
+                                            placeholder="Ghi chú khác(nếu có)">
+                                    </div>
+                                    <small class="my-3 text-secondary">
+                                        <strong>Mẹo</strong>: Bạn có thể cài đặt Sổ địa chỉ tại <strong>Thông tin người
+                                            dùng</strong> để đặt hàng nhanh hơn.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row sticky-bottom">
+                            <div class="col-md-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <div class="bg-light"
+                                            style="box-shadow: 0 -4px 20px -1px rgba(40, 124, 234, .15);">
+
+                                            <div class="text-center p-3 rounded">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="fw-bold item-price">Tổng tiền tạm tính</div>
+                                                    <div class="subtotal fw-bold text-danger item-price">2.350.000đ
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-start">
+                                                    <span class="text-muted">Chưa gồm mã giảm giá</span>
+                                                </div>
+                                                <button class="btn btn-danger form-control mt-3 btn-continue">TIẾP
+                                                    TỤC</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Starter Menu Content -->
+
+                    <div class="tab-pane fade" id="pay">
+
+                        <div class="tab-header text-center">
+                            <h3>THANH TOÁN ĐƠN HÀNG</h3>
+                        </div>
+
+                        <div class="row gy-5 justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="your-info bg-light p-3 py-4 border rounded">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <input type="email" class="discount-code border-0 border-bottom text-muted"
+                                            placeholder="Nhập mã giảm giá (nếu có)">
+                                        <div>
+                                            <button class="btn btn-outline-success">Áp dụng</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div class="text-secondary">Số sản phẩm</div>
+                                        <div>04</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div class="text-secondary">Tiền hàng (tạm tính)</div>
+                                        <div>2.350.000đ</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3 border-bottom pb-3">
+                                        <div class="text-secondary">Phí vận chuyển</div>
+                                        <div>30.000đ</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div><span class="fw-bold">Tổng tiền</span> <span class="text-secondary">(bao
+                                                gồm VAT)</span></div>
+                                        <div class="fw-bold">2.380.000đ</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div>
+                                            <span class="fw-bold">Email</span>
+                                            <small class="text-muted">(*)Hóa đơn VAT sẽ được gửi qua email này</small>
+                                        </div>
+                                        <input type="email" class="y-email border-0 border-bottom text-muted"
+                                            value="kien12003@gmail.com">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Chọn phương thức thanh toán</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <div class="list-pay">
+                                            <div class="my-2 p-2 pay-item border rounded">
+                                                <div class="d-flex justify-content-start align-items-center">
+                                                    <div class="card-image img-pptt">
+                                                        <img src="assets/img/pay-ment/p2.png" alt="pic">
+                                                    </div>
+                                                    <div class="ps-2">
+                                                        <div class="fw-bold name-pptt">
+                                                            Thanh toán khi nhận hàng
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="my-2 p-2 pay-item border rounded">
+                                                <div class="d-flex justify-content-start align-items-center">
+                                                    <div class="card-image img-pptt">
+                                                        <img src="assets/img/pay-ment/p3.png" alt="pic">
+                                                    </div>
+                                                    <div class="ps-2">
+                                                        <div class="fw-bold name-pptt">
+                                                            Chuyển khoản qua mã QR
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="my-2 p-2 pay-item border rounded">
+                                                <div class="d-flex justify-content-start align-items-center">
+                                                    <div class="card-image img-pptt">
+                                                        <img src="assets/img/pay-ment/p4.png" alt="pic">
+                                                    </div>
+                                                    <div class="ps-2">
+                                                        <div class="fw-bold name-pptt">
+                                                            VNPAY
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="my-2 p-2 pay-item border rounded">
+                                                <div class="d-flex justify-content-start align-items-center">
+                                                    <div class="card-image img-pptt">
+                                                        <img src="assets/img/pay-ment/p5.png" alt="pic">
+                                                    </div>
+                                                    <div class="ps-2">
+                                                        <div class="fw-bold name-pptt">
+                                                            Qua thẻ Visa/Master/JCB/Napas
+                                                        </div>
+                                                        <small class="text-muted">Nhập ưu đãi tại cổng, giảm thêm 2% tối
+                                                            đa 200.000đ</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="my-2 p-2 pay-item border rounded">
+                                                <div class="d-flex justify-content-start align-items-center">
+                                                    <div class="card-image img-pptt">
+                                                        <img src="assets/img/pay-ment/p6.png" alt="pic">
+                                                    </div>
+                                                    <div class="ps-2">
+                                                        <div class="fw-bold name-pptt">
+                                                            Ví Momo
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="my-2 p-2 pay-item border rounded">
+                                                <div class="d-flex justify-content-start align-items-center">
+                                                    <div class="card-image img-pptt">
+                                                        <img src="assets/img/pay-ment/p7.png" alt="pic">
+                                                    </div>
+                                                    <div class="ps-2">
+                                                        <div class="fw-bold name-pptt">
+                                                            Zalo Pay
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="my-2 p-2 pay-item border rounded">
+                                                <div class="d-flex justify-content-start align-items-center">
+                                                    <div class="card-image img-pptt">
+                                                        <img src="assets/img/pay-ment/p8.png" alt="pic">
+                                                    </div>
+                                                    <div class="ps-2">
+                                                        <div class="fw-bold name-pptt">
+                                                            Shopee Pay
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button class="btn btn-danger w-100 btn-pptt" data-bs-dismiss="modal">XÁC
+                                            NHẬN</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-header text-center">
+                            <h3>THÔNG TIN THANH TOÁN</h3>
+                        </div>
+                        <div class="row gy-5 justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="bg-light p-3 py-4 border rounded">
+                                    <div class="myModal" data-bs-toggle="modal" data-bs-target="#myModal">
+                                        <div class="d-flex justify-content-between align-items-center pp-tt">
+                                            <div class="d-flex justify-content-start">
+                                                <div class="card-image">
+                                                    <img src="assets/img/pay-ment/py1.png" alt="pic">
+                                                </div>
+                                                <div class="ps-2">
+                                                    <div class="text-danger fw-bold">Chọn phương thức thanh toán</div>
+                                                    <small class="text-muted">Giảm thêm tới 200.000đ</small>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <a href="#">
+                                                    <i class="fa-solid fa-angle-right text-danger"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-header text-center">
+                            <h3>THÔNG TIN NHẬN HÀNG</h3>
+                        </div>
+                        <div class="row gy-5 justify-content-center mb-5">
+                            <div class="col-lg-8">
+                                <div class="bg-light p-3 py-4 border rounded">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div class="text-secondary">Khách hàng</div>
+                                        <div>Bùi Trung Kiên</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div class="text-secondary">Số điện thoại</div>
+                                        <div>0398768562</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div class="text-secondary">Email</div>
+                                        <div>kienbui12003@gmail.com</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div class="text-secondary">Nhận hàng tại</div>
+                                        <div class="ps-5">Thôn An Cơ Đông, xã Thanh Tân, huyện Kiến Xương, tỉnh Thái
+                                            Bình</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div class="text-secondary">Người nhận</div>
+                                        <div>Bùi Trung Kiên - 0398768562</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- The Modal -->
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal1">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Thông báo từ Maries nè</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body h-25">
+                                        Bạn đã đặt hàng thành công!
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <a href="index.html"><button type="button" class="btn-next-index btn btn-danger"
+                                            data-bs-dismiss="modal">Ok</button></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row sticky-bottom">
+                            <div class="col-md-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <div class="bg-light"
+                                            style="box-shadow: 0 -4px 20px -1px rgba(40, 124, 234, .15);">
+
+                                            <div class="text-center p-3 rounded">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="fw-bold item-price">Tổng tiền thanh toán</div>
+                                                    <div class="subtotal fw-bold text-danger item-price">2.380.000đ
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-start">
+                                                    <span class="text-muted">Chưa gồm mã giảm giá</span>
+                                                </div>
+                                                <button class="btn btn-danger form-control mt-3" data-bs-toggle="modal"
+                                                    data-bs-target="#myModal1">THANH TOÁN</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Starter Menu Content -->
+
+                </div>
+
+                <!-- <div class="row sticky-bottom">
+                    <div class="col-md-12">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="bg-light" style="box-shadow: 0 -4px 20px -1px rgba(40, 124, 234, .15);">
+
+                                    <div class="text-center p-3 rounded">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="fw-bold item-price">Tổng tiền tạm tính</div>
+                                            <div class="subtotal fw-bold text-danger item-price">2.350.000đ</div>
+                                        </div>
+                                        <div class="d-flex justify-content-start">
+                                            <span class="text-muted">Chưa gồm mã giảm giá</span>
+                                        </div>
+                                        <button class="btn btn-danger form-control mt-3">TIẾP TỤC</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </section><!-- End Menu Section -->
+
+    </main><!-- End #main -->
+
+    <!-- Footer -->
+    <!-- <div class="row justify-content-center fixed-bottom">
+        <div class="col-lg-8">
+            <div class="text-center bg-light p-3 shadow rounded">
+                <div class="d-flex justify-content-between">
+                    <div class="fw-bold item-price">Tổng tiền tạm tính</div>
+                    <div class="subtotal fw-bold text-danger item-price">2.350.000đ</div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <span class="text-muted">Chưa gồm mã giảm giá</span>
+                </div>
+                <button class="btn btn-danger form-control mt-3">TIẾP TỤC</button>
+            </div>
+        </div>
+    </div> -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/search_input.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+    <script src="assets/js/checkout.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".btn-continue").click(function () {
+                $("#information").removeClass("active show");
+                $("a.nav-link").eq(0).removeClass("active");
+                $("a.nav-link").eq(0).attr("aria-selected", false);
+
+                $("#pay").addClass("active show");
+                $("a.nav-link").eq(1).addClass("active");
+                $("a.nav-link").eq(1).attr("aria-selected", true);
+            });
+        });
+    </script>
+
+</body>
+
+</html>

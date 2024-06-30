@@ -1,0 +1,144 @@
+.mini-cart {
+    z-index: 99 !important;
+}
+
+.sticky-top {
+    z-index: 80 !important;
+}
+
+.sticky-bottom {
+    z-index: 80 !important;
+}
+
+.list-product-cart {
+    max-height: none;
+    overflow: auto;
+}
+
+.menu .tab-content .tab-header {
+    padding: 30px 0 10px !important;
+}
+
+#header {
+    position: static;
+}
+
+section {
+    padding: 60px 0px 0px 0px !important;
+}
+
+#menu {
+    padding: 40px 40px 0px 40px !important;
+}
+
+h4 {
+    font-weight: 800 !important;
+}
+
+.nav-link {
+    background: none !important;
+}
+
+h3 {
+    font-size: 1.2rem !important;
+}
+
+
+select,
+input[type="email"],
+input[type="text"] {
+    background: none !important;
+    outline: none !important;
+    transition: all 0.5s ease-in-out;
+}
+
+input[type="email"]:focus,
+input[type="text"]:not(#y-street, #note):focus {
+    border-bottom-color: #ff7675 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.a {
+    display: inline-block;
+
+}
+
+.new-addr,
+.old-addr {
+    cursor: pointer;
+}
+
+.discount-code {
+    width: 88%;
+}
+
+.card-image {
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.myModal {
+    cursor: pointer;
+}
+
+.modal-dialog .modal-body {
+    height: 60vh;
+    overflow: auto;
+}
+
+.list-pay .pay-item {
+    cursor: pointer;
+}
+
+.duplicate-alert {
+    background-color: #ffdada;
+}
+
+.caret-down {
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu .nav-link.active {
+    border-bottom: 3px solid #d70018 !important;
+    color: #d70018 !important;
+    pointer-events: none !important;
+}
+
+.nav-item {
+    width: 50% !important;
+}
+
+@media(max-width: 767.9px) {
+
+    .item-name a,
+    .item-price {
+        font-size: 1rem !important;
+    }
+    .item-cate small{
+        font-size: 0.8rem !important;
+    }
+}
+
+@media(max-width: 1399.9px) {
+    .discount-code {
+        width: 80%;
+    }
+}
+
+@media(max-width: 500px) {
+    .discount-code {
+        width: 65%;
+    }
+}

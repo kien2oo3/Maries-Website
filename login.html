@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Register</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="landing">
+        <input type="radio" name="check" id="dn" hidden />
+        <input type="radio" name="check" id="dk" hidden />
+        <div class="landing-decoration"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-8">
+                    <div class="landing-info">
+                        <div class="logo">
+                            <img src="assets/img/login/logo.svg" alt="logo">
+                        </div>
+                        <h2 class="heading fw-bold">CHÀO MỪNG ĐẾN</h2>
+                        <h1 class="heading" style="color: #FE7B23;">MARIES</h1>
+                        <p class="desc">Chào mừng bạn trở lại với Marries! Hãy đăng nhập (hoặc đăng ký nếu chưa có tài khoản) để tiếp tục trải nghiệm mua sắm các sản phẩm thủ công mỹ nghệ tinh tế và độc đáo!</p>
+                        <div class="action">
+                            <button class="btn"><label for="dn">Đăng nhập</label></button>
+                            <button class="btn"><label for="dk">Đăng ký</label></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-4">
+                    <div class="landing-form">
+                        <div class="sign-in">
+                            <div class="form-si">
+                                <div class="img"><img src="assets/img/login/rocket.png" alt=""></div>
+                                <h2 class="heading">Đăng nhập tài khoản</h2>
+                                <form action="#" method="get">
+                                    <div class="input">
+                                        <div><input type="em" id="na-em" class="u-username" required><label for="na-em">Email/ Số điện thoại</label></div>
+                                        <div><input type="password" name="password" id="password" class="u-password" required><label
+                                                for="password">Mật khẩu</label></div>
+                                    </div>
+                                    <div class="choose">
+
+                                        <div>
+                                            <input type="checkbox" name="checkbox" id="checkbox" hidden>
+                                            <label class="box" for="checkbox"><i class="fa-solid fa-xmark"
+                                                    style="color: #ffffff;"></i></label>
+                                            <label for="checkbox">
+                                                Ghi nhớ
+                                            </label>
+                                        </div>
+                                        <div class="no-memory"><a href="#!">Bạn quên mật khẩu?</a></div>
+                                    </div>
+                                    <a href="index.html" class="btn-form btn-user-login">ĐĂNG NHẬP</a>
+                                    <div class="social">
+                                        <p class="desc">Đăng nhập với tài khoản mạng xã hội</p>
+                                        <div class="social-items">
+                                            <ul>
+                                                <li>
+                                                    <a href="" class="items"><i class="fa-brands fa-facebook-f"
+                                                            style="color: #ffffff;"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="items"><i class="fa-brands fa-twitter"
+                                                            style="color: #ffffff;"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="items"><i class="fa-regular fa-comment-dots"
+                                                            style="color: #ffffff;"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="items"><i class="fa-brands fa-youtube"
+                                                            style="color: #ffffff;"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="sign-up">
+                            <div class="form-su">
+                                <div class="img"><img src="assets/img/login/rocket.png" alt=""></div>
+                                <h2 class="heading">Đăng ký tài khoản</h2>
+                                <form action="" method="get">
+                                    <div class="input">
+                                        <div><input type="text" id="na-em1" tabindex="1" required><label for="na-em">Email/ Số điện thoại</label></div>
+                                        <div><input type="text" id="username1" tabindex="2" required><label
+                                                for="username1">Tên đăng nhập</label></div>
+                                        <div><input type="password" name="password1" id="password1" tabindex="3"
+                                                required><label for="password1">Mật khẩu</label></div>
+                                        <div><input type="password" name="repeatpassword" id="repeatpassword"
+                                                tabindex="4" required><label for="repeatpassword">Xác nhận mật khẩu</label></div>
+                                    </div>
+                                    <div class="choose">
+
+                                        <div>
+                                            <input type="checkbox" name="checkbox" id="checkbox1" hidden>
+                                            <label class="box" for="checkbox1"><i class="fa-solid fa-xmark"
+                                                    style="color: #ffffff;"></i></label>
+                                            <label for="checkbox1">
+                                                Ghi nhớ
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button class="btn-form">ĐĂNG KÝ</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/login.js"></script>
+</body>
+
+</html>

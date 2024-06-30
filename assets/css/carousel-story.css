@@ -1,0 +1,36 @@
+.owl-carousel {
+    position: relative;
+}
+
+.owl-nav .owl-next,
+.owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+.owl-nav .owl-prev {
+    left: 1rem;
+}
+
+.owl-nav .owl-prev > i, .owl-next > i {
+    font-size: 2rem;
+    background-color: rgb(0 0 0 / 20%);
+    color: #fff;
+    display: none;
+}
+
+.owl-nav .owl-next {
+    right: 1rem;
+}
+
+.owl-carousel:hover i {
+    display: block;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none !important;
+}

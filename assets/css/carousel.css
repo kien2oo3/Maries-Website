@@ -1,0 +1,73 @@
+.own-carousel {
+    position: relative;
+}
+
+.owl-nav .owl-prev,
+.owl-next {
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+}
+
+.owl-nav .owl-prev {
+    left: 3rem;
+}
+
+.owl-nav .owl-next {
+    right: 3rem;
+}
+
+.owl-nav i {
+    font-size: 2rem;
+    color: #dfe6e9;
+}
+
+.owl-nav .owl-prev i:hover, .owl-next i:hover {
+    color: #ff7675;
+}
+
+
+
+@media((min-width: 1200px) and (max-width: 1399px)) {
+    .owl-nav .owl-prev {
+        left: 15rem;
+    }
+
+    .owl-nav .owl-next {
+        right: 15rem;
+    }
+
+    .owl-nav i {
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width: 1400px) {
+    .owl-nav .owl-prev {
+        left: 17.5rem;
+    }
+
+    .owl-nav .owl-next {
+        right: 17.5rem;
+    }
+
+    .owl-nav i {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 1199px) {
+    #hero {
+        padding-top: 80px !important;
+    }
+}
+
+@media(max-width: 990px) {
+    section {
+        padding-bottom: 2rem !important;
+    }
+}

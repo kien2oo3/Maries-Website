@@ -1,0 +1,135 @@
+#slider {
+    width: 100%;
+    height: 40rem;
+    overflow: hidden;
+    position: relative;
+}
+
+@media (max-width: 576px) {
+    #slider {
+        width: 100%;
+        height: 10rem;
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+@media (max-width: 960px) {
+    #slider {
+        width: 100%;
+        height: 20rem;
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+@media (max-width: 1200px) {
+    #slider {
+        width: 100%;
+        height: 30rem;
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+#slider #show {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#slider #show img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* z-index: -1; */
+}
+
+#slider button {
+    z-index: 2;
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(229, 229, 229, 0.6);
+    color: #000000;
+    transition: all 0.5s ease-in-out;
+}
+
+#slider button i {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+#slider #next_btn {
+    right: 0;
+}
+
+#slider button:hover {
+    background: rgba(155, 12, 12, 0.6);
+    color: #D0D0D0;
+    cursor: pointer;
+}
+
+#list_slider {
+    width: 100%;
+    height: 20%;
+    margin-top: 0.5rem;
+}
+
+#list_slider #list_slider_item {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#list_slider_item li {
+    width: 24%;
+    height: auto;
+    overflow: hidden;
+    border: 0.0625rem solid #C4C4C4;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+#list_slider_item li:hover {
+    cursor: pointer;
+    border: 1px solid #FB9393;
+    opacity: 1;
+}
+
+#list_slider_item li:hover img{
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+#list_slider_item li img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: all 1s ease-in-out;
+}
+
+#list_slider_item .active {
+    border: 1px solid #FB9393;
+    opacity: 1;
+}
+
+.img-icon{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fa-phone{
+    font-size: 2rem;
+}

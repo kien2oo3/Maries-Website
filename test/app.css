@@ -1,0 +1,261 @@
+/* Thay đổi chiều rộng của thanh cuộn */
+::-webkit-scrollbar {
+  width: 12px;
+  /* Chiều rộng của thanh cuộn dọc */
+  height: 12px;
+  /* Chiều cao của thanh cuộn ngang */
+}
+
+/* Thay đổi màu nền của thanh cuộn */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Thay đổi màu của phần kéo (thumb) trên thanh cuộn */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+  /* Bo góc cho thumb */
+}
+
+/* Thay đổi màu của phần kéo (thumb) khi di chuột qua */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Extension Mini Cart */
+.has-dropdown {
+  position: relative;
+}
+
+.mini-cart {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: -2px 0px 5px 1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+  width: 478px;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.mini-product-container {
+  max-height: 280px;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.card-mini-product {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  padding: 15px;
+  margin-bottom: 22px;
+}
+
+.card-mini-product:last-child {
+  margin-bottom: 0;
+}
+
+.mini-product {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.mini-product__image-wrapper {
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #ff7675;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 1px rgba(255, 118, 117, 0.2);
+}
+
+.mini-product__link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mini-product__category {
+  display: block;
+}
+
+.mini-product__category>a {
+  color: #a0a0a0;
+  transition: color 0.5s;
+  font-size: 12px;
+}
+
+.mini-product__category>a:hover {
+  color: #ff7675;
+}
+
+.mini-product__name {
+  display: block;
+}
+
+.mini-product__name>a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+  transition: color 0.5s;
+}
+
+.mini-product__name>a:hover {
+  color: #ff7675;
+}
+
+.mini-product__quantity {
+  font-size: 12px;
+  margin-right: 4px;
+  color: #333333;
+}
+
+.mini-product__price, .mini-product__price-temp {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.mini-product__delete-link {
+  padding: 10px;
+  font-size: 16px;
+  display: inline-block;
+  color: #333333;
+  transition: color 0.5s;
+}
+
+.mini-product__delete-link:hover {
+  color: #ff7675;
+  cursor: pointer;
+}
+
+.mini-total {
+  margin-bottom: 16px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.subtotal-text {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.subtotal-value, .subtotal-value-temp {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.mini-link {
+  display: block;
+  text-align: center;
+  padding: 12px 42px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #00b894;
+  color: #FFFFFF;
+  transition: all 0.5s ease-in-out;
+}
+
+.mini-link:hover {
+  background-color: #01a181;
+  color: #f5f5f5;
+  transition: all 0.5s ease-in-out;
+}
+
+.mini-action {
+  width: 65%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1279.9px) {
+  .has-dropdown>.mini-cart {
+    width: 100% !important;
+    box-shadow: none;
+    transition: none;
+    padding: 14px;
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    display: none;
+  }
+
+  .mini-product-container {
+    max-height: 836px;
+  }
+
+  .card-mini-product {
+    display: block;
+    text-align: center;
+  }
+
+  .mini-product {
+    display: block;
+  }
+
+  .mini-product__image-wrapper {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .mini-product__info-wrapper {
+    padding: 0;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .mini-total {
+    margin-bottom: 22px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .toggle-button-shop+.total-item-round {
+    display: none;
+  }
+
+  .has-dropdown:hover>.mini-cart {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.app-content{
+  padding-top: 2rem;
+}
+
+.btn--e-brand-b-2, .btn--e-transparent-secondary-b-2{
+  border: none !important;
+}
+.btn--e-brand-b-2:hover{
+  color: #fff;
+}

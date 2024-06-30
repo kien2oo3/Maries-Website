@@ -1,0 +1,23 @@
+#form-search{
+    width: 12rem; height: 3rem;
+}
+
+#form-search .btn-search-item{
+    right: 0; top: 50%; transform: translateY(-50%); background: none;
+}
+
+#form-search a.btn-search-item{
+    color: #000;
+}
+
+@media (max-width: 1279.9px) {
+    #form-search input {
+        display: inline-block !important;
+    }
+}
+
+/* @media (min-width: 1280px) {
+    #form-search input {
+        display: none;
+    }
+} */

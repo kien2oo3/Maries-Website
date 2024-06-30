@@ -1,0 +1,65 @@
+.input-counter {
+    position: relative;
+    display: inline-block;
+    max-width: 132px;
+    min-width: 132px;
+}
+
+.input-counter__text {
+    border-radius: 1rem;
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.input-counter__text:focus {
+    outline: 0;
+}
+
+.input-counter--text-primary-style {
+    color: #333333;
+    transition: all 0.6s linear;
+    border: 2px solid transparent;
+    background-color: #f1f1f1;
+}
+
+.input-counter--text-primary-style:focus {
+    background-color: transparent;
+    border-color: #ff4500;
+}
+
+.input-counter__minus,
+.input-counter__plus {
+    top: 0;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    line-height: 50px;
+    height: 100%;
+    text-align: center;
+    color: #7f7f7f;
+    transition: color 0.5s;
+}
+
+.input-counter__minus:hover,
+.input-counter__plus:hover {
+    color: #333333;
+}
+
+.input-counter__minus {
+    left: 0;
+}
+
+.input-counter__plus {
+    right: 0;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

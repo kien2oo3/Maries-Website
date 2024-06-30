@@ -1,0 +1,675 @@
+:root {
+  --font-1: "Titillium Web", sans-serif;
+  --font-2: "Rajdhani", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-2);
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 2000px) {
+  .col-xxl-1 {
+    --size: 1;
+  }
+  .col-xxl-2 {
+    --size: 2;
+  }
+  .col-xxl-3 {
+    --size: 3;
+  }
+  .col-xxl-4 {
+    --size: 4;
+  }
+  .col-xxl-5 {
+    --size: 5;
+  }
+  .col-xxl-6 {
+    --size: 6;
+  }
+  .col-xxl-7 {
+    --size: 7;
+  }
+  .col-xxl-8 {
+    --size: 8;
+  }
+  .col-xxl-9 {
+    --size: 9;
+  }
+  .col-xxl-10 {
+    --size: 10;
+  }
+  .col-xxl-11 {
+    --size: 11;
+  }
+  .col-xxl-12 {
+    --size: 12;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  .col-xl-1 {
+    --size: 1;
+  }
+  .col-xl-2 {
+    --size: 2;
+  }
+  .col-xl-3 {
+    --size: 3;
+  }
+  .col-xl-4 {
+    --size: 4;
+  }
+  .col-xl-5 {
+    --size: 5;
+  }
+  .col-xl-6 {
+    --size: 6;
+  }
+  .col-xl-7 {
+    --size: 7;
+  }
+  .col-xl-8 {
+    --size: 8;
+  }
+  .col-xl-9 {
+    --size: 9;
+  }
+  .col-xl-10 {
+    --size: 10;
+  }
+  .col-xl-11 {
+    --size: 11;
+  }
+  .col-xl-12 {
+    --size: 12;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .col-lg-1 {
+    --size: 1;
+  }
+  .col-lg-2 {
+    --size: 2;
+  }
+  .col-lg-3 {
+    --size: 3;
+  }
+  .col-lg-4 {
+    --size: 4;
+  }
+  .col-lg-5 {
+    --size: 5;
+  }
+  .col-lg-6 {
+    --size: 6;
+  }
+  .col-lg-7 {
+    --size: 7;
+  }
+  .col-lg-8 {
+    --size: 8;
+  }
+  .col-lg-9 {
+    --size: 9;
+  }
+  .col-lg-10 {
+    --size: 10;
+  }
+  .col-lg-11 {
+    --size: 11;
+  }
+  .col-lg-12 {
+    --size: 12;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .col-md-1 {
+    --size: 1;
+  }
+  .col-md-2 {
+    --size: 2;
+  }
+  .col-md-3 {
+    --size: 3;
+  }
+  .col-md-4 {
+    --size: 4;
+  }
+  .col-md-5 {
+    --size: 5;
+  }
+  .col-md-6 {
+    --size: 6;
+  }
+  .col-md-7 {
+    --size: 7;
+  }
+  .col-md-8 {
+    --size: 8;
+  }
+  .col-md-9 {
+    --size: 9;
+  }
+  .col-md-10 {
+    --size: 10;
+  }
+  .col-md-11 {
+    --size: 11;
+  }
+  .col-md-12 {
+    --size: 12;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .col-sm-1 {
+    --size: 1;
+  }
+  .col-sm-2 {
+    --size: 2;
+  }
+  .col-sm-3 {
+    --size: 3;
+  }
+  .col-sm-4 {
+    --size: 4;
+  }
+  .col-sm-5 {
+    --size: 5;
+  }
+  .col-sm-6 {
+    --size: 6;
+  }
+  .col-sm-7 {
+    --size: 7;
+  }
+  .col-sm-8 {
+    --size: 8;
+  }
+  .col-sm-9 {
+    --size: 9;
+  }
+  .col-sm-10 {
+    --size: 10;
+  }
+  .col-sm-11 {
+    --size: 11;
+  }
+  .col-sm-12 {
+    --size: 12;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .col-1 {
+    --size: 1;
+  }
+  .col-2 {
+    --size: 2;
+  }
+  .col-3 {
+    --size: 3;
+  }
+  .col-4 {
+    --size: 4;
+  }
+  .col-5 {
+    --size: 5;
+  }
+  .col-6 {
+    --size: 6;
+  }
+  .col-7 {
+    --size: 7;
+  }
+  .col-8 {
+    --size: 8;
+  }
+  .col-9 {
+    --size: 9;
+  }
+  .col-10 {
+    --size: 10;
+  }
+  .col-11 {
+    --size: 11;
+  }
+  .col-12 {
+    --size: 12;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  .landing {
+    text-align: center;
+    overflow: auto !important;
+    background-position: center !important;
+  }
+  .landing .landing-decoration {
+    display: none;
+  }
+  .landing .row {
+    width: 100vw !important;
+  }
+  .landing .action {
+    margin: 0 auto !important;
+  }
+  .landing .container {
+    margin: 0px !important;
+  }
+  .landing .landing-form {
+    width: 100vw !important;
+    height: 100vh;
+    padding: 0px !important;
+    text-align: center !important;
+  }
+  .landing .landing-form .sign-in {
+    top: 100px !important;
+    left: 50% !important;
+    translate: -50% 0 !important;
+    display: inline-block !important;
+    margin: 0px auto !important;
+  }
+  .landing .landing-form .sign-up {
+    top: 100px !important;
+    left: 50% !important;
+    translate: -50% 0 !important;
+    display: inline-block !important;
+    margin: 0px auto !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .landing-info {
+    padding: 0 !important;
+  }
+  h1 {
+    font-size: 60px !important;
+    width: 80px !important;
+    text-align: center !important;
+    display: inline !important;
+    margin-bottom: 40px !important;
+  }
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row [class*=col-] {
+  --width-col: calc(100% / (12 / var(--size)));
+  max-width: var(--width-col);
+  flex-basis: var(--width-col);
+}
+
+.landing .container .landing-form .sign-up .form-su .input, .landing .container .landing-form .sign-in .form-si .input {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+.landing .container .landing-form .sign-up .form-su .input div, .landing .container .landing-form .sign-in .form-si .input div {
+  width: 100%;
+  position: relative;
+}
+.landing .container .landing-form .sign-up .form-su .input div label, .landing .container .landing-form .sign-in .form-si .input div label {
+  position: absolute;
+  color: #dedeea;
+  font-family: var(--font-2);
+  font-size: 18px;
+  font-weight: 700;
+  top: 50%;
+  left: 0;
+  translate: 17px -50%;
+  background-color: #fff;
+  display: inline-block;
+  transition: translate 0.5s ease-in-out, font-size 0.5s ease-in-out;
+}
+.landing .container .landing-form .sign-up .form-su .input div input, .landing .container .landing-form .sign-in .form-si .input div input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 18px 15px;
+  font-family: var(--font-2);
+  font-size: 18px;
+  font-weight: 600;
+}
+.landing .container .landing-form .sign-up .form-su .input div input:focus + label, .landing .container .landing-form .sign-in .form-si .input div input:focus + label {
+  translate: 17px -38px;
+  font-size: 12px;
+}
+.landing .container .landing-form .sign-up .form-su .input div input:not(:focus):valid + label, .landing .container .landing-form .sign-in .form-si .input div input:not(:focus):valid + label {
+  translate: 17px -38px;
+  font-size: 12px;
+}
+
+.btn-form {
+  display: inline-block;
+  margin-top: 30px;
+  border: none;
+  width: 100%;
+  background-color: #ff7675;
+  box-shadow: 0.1px 0.1px 12px #ccc;
+  padding: 20px 0px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--font-2);
+  text-decoration: none !important;
+}
+
+.landing {
+  background-image: url("../img/login/bg-login-regis.jpeg");
+  position: relative;
+  background-size: cover;
+  background-position: 0 -70px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+.landing input:nth-child(1):checked ~ .container .action .btn:nth-child(1) {
+  background-color: #fff;
+  color: #000;
+}
+.landing input:nth-child(1):checked ~ .container .action .btn:nth-child(2) {
+  background-color: transparent;
+  color: #fff;
+}
+.landing input:nth-child(1):checked ~ .container .sign-in {
+  translate: 0px;
+  opacity: 1;
+  visibility: visible;
+}
+.landing input:nth-child(1):checked ~ .container .sign-up {
+  translate: 30px;
+  opacity: 0;
+  visibility: hidden;
+}
+.landing input:nth-child(2):checked ~ .container .action .btn:nth-child(1) {
+  background-color: transparent;
+  color: #fff;
+}
+.landing input:nth-child(2):checked ~ .container .action .btn:nth-child(2) {
+  background-color: #fff;
+  color: #000;
+}
+.landing input:nth-child(2):checked ~ .container .sign-up {
+  translate: 0px;
+  opacity: 1;
+  visibility: visible;
+}
+.landing input:nth-child(2):checked ~ .container .sign-in {
+  translate: 30px;
+  opacity: 0;
+  visibility: hidden;
+}
+.landing .landing-decoration {
+  position: absolute;
+  background-color: #fff;
+  background-image: url("../img/login/dot-texture.png");
+  background-repeat: repeat;
+  width: 130vh;
+  border-radius: 50%;
+  height: 130vh;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  translate: 50% -15%;
+}
+.landing .container {
+  font-family: var(--font-2);
+  color: #fff;
+  max-width: calc(100% - 200px);
+  margin: 0px auto;
+  text-align: center;
+}
+.landing .container .landing-info {
+  padding: 116px 170px 0px;
+}
+.landing .container .landing-info .logo {
+  margin-bottom: 30px;
+}
+.landing .container .landing-info h1 {
+  font-size: 104px;
+  font-family: var(--font-1);
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.landing .container .landing-info h2 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: -10px;
+}
+.landing .container .landing-info p.desc {
+  font-weight: 500;
+  margin: 0px auto;
+  width: 400px;
+  align-self: stretch;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.landing .container .landing-info .action {
+  display: flex;
+  border-radius: 10px;
+  width: 360px;
+  border: 1px solid #fff;
+  margin: 100px 20px 0px;
+  overflow: hidden;
+}
+.landing .container .landing-info .action .btn {
+  padding: 0px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  width: 180px;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+.landing .container .landing-info .action .btn label {
+  cursor: pointer;
+  padding: 15px 8px;
+  width: 100%;
+  display: block;
+}
+.landing .container .landing-info .action .btn:nth-child(1) {
+  background-color: #fff;
+  color: #000;
+}
+.landing .container .landing-form {
+  position: relative;
+  z-index: 1;
+}
+.landing .container .landing-form .sign-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  margin: 50px -50px 0px;
+  width: 480px;
+  height: 620px;
+  translate: 30px;
+  border-radius: 10px;
+  box-shadow: 20px 0px 50px #ccc;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out, translate 0.5s ease-in-out;
+}
+.landing .container .landing-form .sign-in .form-si {
+  padding: 80px 70px 0px;
+}
+.landing .container .landing-form .sign-in .form-si img {
+  position: absolute;
+  top: -60px;
+  left: -70px;
+}
+.landing .container .landing-form .sign-in .form-si h2 {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: var(--font-2);
+  color: #000;
+  margin-bottom: 80px;
+}
+.landing .container .landing-form .sign-in .form-si .choose {
+  justify-content: space-between;
+  color: #000;
+  display: flex;
+  margin-top: 30px;
+}
+.landing .container .landing-form .sign-in .form-si .choose div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.landing .container .landing-form .sign-in .form-si .choose div .box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #000;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  height: 20px;
+  transition: border 0.3s ease-in, background-color 0.3s ease-in;
+}
+.landing .container .landing-form .sign-in .form-si .choose div .box i {
+  line-height: 1.2;
+  font-size: 14px;
+  font-weight: bold;
+}
+.landing .container .landing-form .sign-in .form-si .choose div input:checked + .box {
+  border: 1px solid #ff7675;
+  background-color: #ff7675;
+}
+.landing .container .landing-form .sign-in .form-si .choose div label {
+  font-size: 14px;
+  font-family: var(--font-2);
+  font-weight: 700;
+}
+.landing .container .landing-form .sign-in .form-si .choose a {
+  font-weight: 700;
+  font-family: var(--font-2);
+  font-size: 14px;
+  color: #dedeea;
+}
+.landing .container .landing-form .sign-in .form-si .choose a:hover {
+  color: #00c7d9;
+}
+.landing .container .landing-form .sign-in .form-si .social {
+  color: #3e3f5e;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: var(--font-2);
+}
+.landing .container .landing-form .sign-in .form-si .social .social-items {
+  margin-top: 20px;
+}
+.landing .container .landing-form .sign-in .form-si .social .social-items ul {
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing .container .landing-form .sign-in .form-si .social .social-items ul li {
+  transition: translate 0.5s ease;
+}
+.landing .container .landing-form .sign-in .form-si .social .social-items ul li:hover {
+  translate: 0px -5px;
+}
+.landing .container .landing-form .sign-in .form-si .social .social-items ul li a {
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #ff7675;
+  background-image: linear-gradient(43deg, #ff7675 0%, #c850c0 46%, #ffcc70 100%);
+  text-decoration: none;
+}
+.landing .container .landing-form .sign-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #fff;
+  margin: 10px -50px 0px;
+  width: 480px;
+  height: 95vh;
+  translate: 30px;
+  border-radius: 10px;
+  box-shadow: 20px 0px 50px #ccc;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out, translate 0.5s ease-in-out;
+}
+.landing .container .landing-form .sign-up .form-su {
+  padding: 50px 70px 0px;
+}
+.landing .container .landing-form .sign-up .form-su img {
+  position: absolute;
+  top: -30px;
+  left: -70px;
+}
+.landing .container .landing-form .sign-up .form-su h2 {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: var(--font-2);
+  color: #000;
+  margin-bottom: 70px;
+}
+.landing .container .landing-form .sign-up .form-su .choose {
+  color: #000;
+  margin-top: 30px;
+}
+.landing .container .landing-form .sign-up .form-su .choose div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.landing .container .landing-form .sign-up .form-su .choose div .box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #000;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  height: 20px;
+  transition: border 0.3s ease-in, background-color 0.3s ease-in;
+}
+.landing .container .landing-form .sign-up .form-su .choose div .box i {
+  line-height: 1.2;
+  font-size: 14px;
+  font-weight: bold;
+}
+.landing .container .landing-form .sign-up .form-su .choose div input:checked + .box {
+  border: 1px solid #ff7675;
+  background-color: #ff7675;
+}
+.landing .container .landing-form .sign-up .form-su .choose div label {
+  font-size: 14px;
+  font-family: var(--font-2);
+  font-weight: 700;
+}
+.landing .container .landing-form .sign-up .form-su .btn-form {
+  background-color: #ff7675;
+}
+.landing .container .landing-form .sign-up .form-su .account p {
+  margin-top: 20px;
+  color: #000;
+  font-weight: 500;
+  font-family: var(--font-2);
+  font-size: 13px;
+  text-align: left;
+  line-height: 1.4;
+}
+.landing .container .landing-form .sign-up .form-su .account p a {
+  color: #00c7d9;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=base.css.map */
